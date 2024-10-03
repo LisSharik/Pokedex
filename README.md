@@ -18,9 +18,9 @@ Sigue estos pasos para clonar y ejecutar la aplicación en tu entorno local:
   ```
 
   2. Instala las dependencias del proyecto:
-```
-  npm install
-```
+  ```
+    npm install
+  ```
 
 ## Configuración de Variables de Entorno
 
