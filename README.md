@@ -18,9 +18,16 @@ Sigue estos pasos para clonar y ejecutar la aplicación en tu entorno local:
   ```
 
   2. Instala las dependencias del proyecto:
+     Si estás utilizando npm
   ```
     npm install
   ```
+  O si prefieres usar Yarn:
+
+  ```
+    yarn install
+  ```
+
 
 ## Configuración de Variables de Entorno
 
@@ -28,7 +35,6 @@ La aplicación utiliza variables de entorno para conectarse a la PokéAPI y la P
 
 ```
   VITE_URL_POKEAPI="https://pokeapi.co/api/v2/pokemon/"
-
   VITE_URL_POKEMONTCG="https://api.pokemontcg.io/v2/"
 ```
 
@@ -38,6 +44,12 @@ Una vez que hayas configurado las variables de entorno e instalado las dependenc
 
 ```
   npm run dev
+```
+
+O con Yarn:
+
+```
+  yarn dev
 ```
 
 Esto ejecutará la aplicación en modo de desarrollo. Puedes abrir http://localhost:5173 en tu navegador para ver la aplicación en acción.
