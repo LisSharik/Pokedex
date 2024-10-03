@@ -21,7 +21,7 @@ export default function Header() {
             <Link to={"/"} className='hover:scale-105 transition-all'>
                 <img className='w-[160px] ' src={Logo} alt="Logo de Pokedex" />
             </Link>
-            <button className='py-2 px-4 absolute right-16  bg-brown-lighter rounded-md dark:bg-neutral-300' onClick={handleChangeTheme}>{ theme === 'light' ? 'Dark Mode' : 'Light Mode' }</button>
+            <button className='py-2 px-4 absolute right-16  bg-brown-lighter rounded-md hover:opacity-80 transition-all text-brown-dark font-semibold dark:bg-neutral-300 dark:text-neutral-800' onClick={handleChangeTheme}>{ theme === 'light' ? 'Dark Mode' : 'Light Mode' }</button>
         </header>
     )
 }
