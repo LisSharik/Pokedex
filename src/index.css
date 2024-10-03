@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  overflow-x: hidden;
+}
+
+body{
+  width: 100vw;
+  height: auto;
+  background-color: #ecd1a5;
+  
+}
+
+body.dark{
+  background-color: #222;
+}
+
