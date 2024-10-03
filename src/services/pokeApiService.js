@@ -1,5 +1,5 @@
 export const getPokemons = async () => {
-  const response = await fetch(`${import.meta.env.VITE_URL_POKEAPI}?limit=16`);
+  const response = await fetch(`${import.meta.env.VITE_URL_POKEAPI}?limit=50`);
   const data = await response.json();
 
   const promises = data.results.map(async (pokemon) => {

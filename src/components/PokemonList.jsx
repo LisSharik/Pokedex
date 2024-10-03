@@ -26,7 +26,7 @@ export default function PokemonList() {
         placeholder='Search Pokémon...'
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className='w-[50%] p-2 mb-4 border border-gray-300 rounded bg-neutral-100 dark:bg-transparent text-neutral-200'
+        className='w-[50%] p-2 mb-4 border border-gray-300 rounded bg-neutral-100 text-brown-normal dark:bg-transparent dark:text-neutral-300'
       />
 
       <section className='w-full flex flex-wrap justify-center items-start gap-6 font-bold py-4'>
